@@ -5,7 +5,8 @@ export const ListStyle = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginTop: 30,
-    backgroundColor: "#303030",
+    backgroundColor: "#474747ff",
     borderRadius: 10,
     padding: 15
+
 });
