@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "rickandmorty",
-    "slug": "rickandmorty",
+    "name": "AtvPAM_RickAndMorty",
+    "slug": "AtvPAM_RickAndMorty",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
