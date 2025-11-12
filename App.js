@@ -8,7 +8,7 @@ const Stack = createNativeStackNavigator();
 export default function app() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="CharactersListScreen" screenOptions={{ headerShown: false }}>
+      <Stack.Navigator initialRouteName="CharactersListScreen">
         <Stack.Screen name="CharactersListScreen" component={CharactersListScreen} />
         <Stack.Screen name="CharactersDetailScreen" component={CharacterDetailScreen} />
       </Stack.Navigator>

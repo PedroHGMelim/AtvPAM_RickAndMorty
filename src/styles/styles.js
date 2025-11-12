@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native"
 
-export const ListStyle = StyleSheet.create({
+export const ListaStyle = StyleSheet.create({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
@@ -8,5 +8,4 @@ export const ListStyle = StyleSheet.create({
     backgroundColor: "#474747ff",
     borderRadius: 10,
     padding: 15
-
 });

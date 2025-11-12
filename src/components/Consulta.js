@@ -1,6 +1,6 @@
 import { FlatList, Text, View, Image, TouchableOpacity, ActivityIndicator, Dimensions } from 'react-native';
 import { useEffect, useState } from 'react';
-import { ListStyle } from '../styles/styles';
+import { ListaStyle } from '../styles/styles';
 
 const windowWidth = Dimensions.get('window').width;
 
@@ -26,7 +26,7 @@ export default function Consulta({ navigation }) {
         <FlatList
           data={data}
           renderItem={({ item }) => (
-            <TouchableOpacity style={ListStyle} onPress={() => navigation.navigate("CharactersDetailScreen")}>
+            <TouchableOpacity style={ListaStyle} onPress={() => navigation.navigate("CharactersDetailScreen", { character: item })}>
               <Image source={{ uri: item.image}} style={{ width: 150, height: 150 }} />
               <Text style={{ fontSize: 20, color: '#ffffffff' }}>Name: {item.name}</Text>
               <Text style={{ fontSize: 20, color: '#ffffffff' }}>Status: {item.status}</Text>
